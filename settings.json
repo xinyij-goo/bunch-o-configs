@@ -1,0 +1,29 @@
+// VSCode settings
+{
+  "workbench.colorTheme": "Default Dark+",
+  "window.zoomLevel": 1,
+  "git.autofetch": true,
+
+  "editor.rulers": [80],
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "update.mode": "none",
+
+  // additional settings which control when to contact Microsoft services
+  "workbench.settings.enableNaturalLanguageSearch": false, // natural language search provided by a Microsoft online service.
+  "extensions.ignoreRecommendations": true, // When enabled, the notifications for extension recommendations will not be shown.
+  "workbench.enableExperiments": false, // Fetches experiments to run from a Microsoft online service.
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSaveMode": "file"  // Switch to "modifications" if you think the formatting is excessive
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false
+}
